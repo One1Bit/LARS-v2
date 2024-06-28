@@ -30,5 +30,8 @@ cmake -B build .
 ```
 * Or build the project with VS code.
 
+[Full project with trained models](https://polimi365-my.sharepoint.com/:f:/g/personal/10881443_polimi_it/EqXzlIlB-UBIrLPeYNHiizUBwroyRy6NTAC47CyegJxIHQ?e=KQd9JK)
+
+
 ## License
 [LarsNet](https://github.com/polimi-ispl/larsnet), whose weights are distributed under a CC BY-NC 4.0 license.
