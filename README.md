@@ -12,6 +12,8 @@ The implementation of LARS v2 involves integrating pre-trained models such as HT
 LARS v2 can operate in two modes: the same drum-focused mode (separate a stereo drum track into five audio stems: **kicks**, **snare**, **toms**, **hi-hat**, and **cymbals**.) as LARS v1 
 and a full-featured plugin mode that can separate complete musical tracks, because of that we added 6th stem **drums**.
 
+It is based on [LARS](https://github.com/EdoardoMor/LARS) and [Music-Source-Separation-Training](https://github.com/ZFTurbo/Music-Source-Separation-Training?tab=readme-ov-file), 
+
 ## Requirements
 * [CMake](https://cmake.org) 
 * [Libtorch](https://pytorch.org/get-started/locally/)
@@ -30,4 +32,3 @@ cmake -B build .
 
 ## License
 [LarsNet](https://github.com/polimi-ispl/larsnet), whose weights are distributed under a CC BY-NC 4.0 license.
-[Music-Source-Separation-Training](https://github.com/ZFTurbo/Music-Source-Separation-Training?tab=readme-ov-file)
